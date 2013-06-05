@@ -9,6 +9,7 @@ require_once 'config.php';
 
 $app = new Silex\Application();
 
+
 $app['dirs_to_scan'] = $pathsToMusic;
 $app['authType'] = $authType;
 $app['users'] = $users;
